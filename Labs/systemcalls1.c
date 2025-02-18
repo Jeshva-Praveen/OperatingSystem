@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
         printf("The given directory doesn't exist\n");
         exit(1);
     }
-    printf("Contents of directory %s: \n",buff)
+    printf("Contents of directory %s: \n",buff);
     while ((dptr = readdir(dirp)) != NULL) {
         printf("%s\n", dptr->d_name);
     }
